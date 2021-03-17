@@ -1,0 +1,22 @@
+.sidebarOptionsOne {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.sidebarOptionsOne > .MuiSvgIcon-root {
+    padding: 20px;
+    color: white;
+    font-size: medium;
+    margin-left: 50px;
+}
+.sidebarOptionsOne > h2 {
+    font-weight: 400;
+    font-size: medium;
+    color: white;
+}
+.sidebarOptionsOne:hover{
+    background-color: lightgray;
+    border-radius: 30px;
+    transition: color 100ms ease-out;
+}

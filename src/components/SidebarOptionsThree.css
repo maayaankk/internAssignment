@@ -1,0 +1,22 @@
+.sidebarOptionsThree {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.sidebarOptionsThree > .MuiSvgIcon-root {
+    padding: 20px;
+    color: white;
+    font-size: medium;
+    margin-left: 110px;
+}
+.sidebarOptionsThree > h2 {
+    font-weight: 400;
+    font-size: medium;
+    color: white;
+}
+.sidebarOptionsThree:hover{
+    background-color: lightgray;
+    border-radius: 30px;
+    transition: color 100ms ease-out;
+}

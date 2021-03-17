@@ -1,0 +1,7 @@
+*{
+  margin: 0;
+  height: fit-content;
+}
+.app{
+  display: flex;
+}

@@ -1,0 +1,81 @@
+.container {
+    flex: 0.7;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 175px;
+    padding-left: 50px;
+    padding-right: 20px;
+    align-items: center;
+  }
+
+.container__header > h1 {
+    font-size: xx-large;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+
+.container__header > p {
+    font-size: medium;
+    font-weight: 400;
+    color: lightslategrey;
+  }
+
+.container__input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container__inputOne{
+  display: flex;
+  flex-direction: column;
+}
+
+.container__inputTwo{
+  display: flex;
+  flex-direction: column;
+}
+
+.container__inputOne > h2 {
+    font-size: medium;
+    font-weight: 400;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+.container__inputOne > input {
+  background-color:lightgrey;
+  border: none;
+  height: 30px;
+}
+
+.container__inputTwo > h2 {
+    
+  font-size: medium;
+  font-weight: 400;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container__inputTwo > input {
+background-color:lightgrey;
+border: none;
+height: 30px;
+}
+
+.container__submitButton > button {
+  background-color: lightgrey;
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.container__link > a {
+  color: lightslategrey;
+  margin-left: 975px;
+}
